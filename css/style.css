@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(-90deg, #72f1ff, #51aeff, #66cbfe);
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.title {
+    margin-top: 200px;
+    font-size: 5rem;
+    border-bottom: 2px #c2e3ff solid;
+    animation: poyoyon 0.4s cubic-bezier(0.12, 0, 0.39, 0) 1 forwards;
+}
+
+@keyframes poyoyon {
+    0% {
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+    }
+    80% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    20%,
+    100% {
+        opacity: 1;
+    }
+}
