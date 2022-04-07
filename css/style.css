@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    cursor: none;
+}
+
 body {
     background: linear-gradient(-90deg, #72f1ff, #51aeff, #66cbfe);
     text-align: center;
@@ -166,37 +171,42 @@ body {
     }
 }
 
-
-/* マウスストーカー */
-
-#stkr {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 25px;
-    height: 25px;
-    background: rgba(0, 0, 0, 0.5);
+#stalker {
     border-radius: 50%;
-    transition: 0.2s;
-    transition-timing-function: ease-out;
-    pointer-events: none;
-    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.752);
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    transition: 0.3s;
 }
 
-
-/* マウスストーカーに影響のない装飾CSS */
-
-* {
-    margin: 0;
-    padding: 0;
+.stalker-0 {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.23);
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 0.9s;
 }
 
-html,
-body {
-    width: 100%;
-    height: 100%;
+.stalker-1 {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.518);
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    transition: 0.6s;
 }
 
-.links div {
-    margin: 20px 10px;
+.stalker-2 {
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transition: 30ms;
 }
