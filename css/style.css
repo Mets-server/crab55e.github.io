@@ -173,6 +173,7 @@ body {
 
 #stalker {
     border-radius: 50%;
+    filter: drop-shadow(8px 8px 2px rgb(30, 115, 200));
     background-color: rgba(255, 255, 255, 0.752);
     padding: 10px 10px 10px 10px;
     position: absolute;
@@ -183,6 +184,7 @@ body {
 
 .stalker-0 {
     border-radius: 50%;
+    filter: drop-shadow(8px 8px 2px rgb(30, 115, 200));
     background-color: rgba(255, 255, 255, 0.23);
     padding: 20px 20px 20px 20px;
     position: absolute;
@@ -193,6 +195,7 @@ body {
 
 .stalker-1 {
     border-radius: 50%;
+    filter: drop-shadow(8px 8px 2px rgb(30, 115, 200));
     background-color: rgba(255, 255, 255, 0.518);
     padding: 15px 15px 15px 15px;
     position: absolute;
@@ -203,6 +206,7 @@ body {
 
 .stalker-2 {
     border-radius: 50%;
+    filter: drop-shadow(8px 8px 2px rgb(30, 115, 200));
     background-color: #fff;
     padding: 5px 5px 5px 5px;
     position: absolute;

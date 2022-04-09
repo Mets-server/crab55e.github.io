@@ -20,8 +20,8 @@
 
 <body>
     <div class="title bounce-top ">Hello! I'm Crab55e</div>
-    <div class="text-pikapika sub-title-en" id="sub-title"></div>
-    <div class="text-pikapika sub-title-jp"></div>
+    <div class="text-pikapika sub-title" id="sub-title-en"></div>
+    <div class="text-pikapika sub-title" id="sub-title-jp"></div>
     <!--scripts-->
     <!-- mouse stalker-->
     <div id="stalker"></div>
@@ -54,14 +54,14 @@
     </script>
     <!-- random subtitle-->
     <script>
-        const SubTitlesEN = ["You always end up with one word too many.","Coffee running away!","Board game version also available!", "Honey, I waxed the copper!", "Plant-based light sources!", "The cutest predator you'll ever meet!", "Now you are thinking with pistons!", "Get to the coppah!", "And my pickaxe!", "/give @a hugs 64", "Awesome!", "日本ハロー！", "Contains simulated goats!", "Home-made!", "Zoglin!?", "Hello!"]
+        const SubTitlesEN = ["You always end up with one word too many.", "Coffee running away!", "Board game version also available!", "Honey, I waxed the copper!", "Plant-based light sources!", "The cutest predator you'll ever meet!", "Now you are thinking with pistons!", "Get to the coppah!", "And my pickaxe!", "/give @a hugs 64", "Awesome!", "Contains simulated goats!", "Home-made!", "Zoglin!?", "Hello!"]
 
         const SubTitleEN = Math.floor(Math.random() * SubTitlesEN.length);
 
         document.getElementById('sub-title-en').innerHTML = SubTitlesEN[SubTitleEN];
     </script>
     <script>
-        const SubTitlesJP = ["こんにちは！",""]
+        const SubTitlesJP = ["いやぁ～もうねぇ凄いですよほんと", ]
 
         const SubTitleJP = Math.floor(Math.random() * SubTitlesJP.length);
 
